@@ -470,7 +470,7 @@ static const void *kStatusBarStyle = &kStatusBarStyle;
       frame.origin.y = statusBarFrame.size.height;
       frame.size.height -= statusBarFrame.size.height;
       self.webView.frame = frame;
-    }
+
   } else {
     // even if overlay is used, we want to handle in-call/recording/hotspot larger status bar
     CGRect statusBarFrame = [UIApplication sharedApplication].statusBarFrame;
